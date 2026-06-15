@@ -1,0 +1,19 @@
+body{
+    margin-left: 20px;
+}
+
+.chatbox{
+    background-color: rgb(235, 239, 241);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.msgbox{
+
+    background-color: rgb(67, 230, 67);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}

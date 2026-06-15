@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Chat</title>
+</head>
+<body>
+    <form method="POST" action="/chats"
+    onsubmit="return confirm('New chat created successfully')">
+        <input type="text" placeholder="Enter sender Name" name="from"> <br><br>
+        <textarea name="msg">Write Your Message here....</textarea><br><br>
+          <input type="text" placeholder="Enter Receiver Name" name="to"> <br><br>
+          <button>Create Chat</button>
+    </form>
+</body>
+</html>
